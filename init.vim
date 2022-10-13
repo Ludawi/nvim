@@ -10,6 +10,7 @@ set shiftwidth=4
 set tabstop=4
 set noerrorbells
 set number
+set ignorecase
 set smartcase
 
 set list
