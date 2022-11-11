@@ -10,7 +10,6 @@ set shiftwidth=4
 set tabstop=4
 set noerrorbells
 set number
-set ignorecase
 set smartcase
 
 set list
@@ -37,6 +36,7 @@ inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
+inoremap < <><left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
@@ -56,4 +56,5 @@ endif
 call plug#begin(data_dir . '/plugins')
 source ~/.config/nvim/plugins/airline.vim
 source ~/.config/nvim/plugins/themes.vim
+source ~/.config/nvim/plugins/nerdtree.vim
 call plug#end()
