@@ -32,6 +32,7 @@ nmap <leader>x :!xdg-open %<cr><cr>
 nnoremap th :tabnext<CR>
 nnoremap tl :tabprev<CR>
 nnoremap tn :tabnew<CR>
+nnoremap tx :tabclose<CR>
 
 "----------------------------------------------------------------------------------
 "   autoclose brackets
