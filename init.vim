@@ -27,6 +27,12 @@ let mapleader = "\<space>"
 " Open file in default program
 nmap <leader>x :!xdg-open %<cr><cr>
 
+" tab navigation
+
+nnoremap th :tabnext<CR>
+nnoremap tl :tabprev<CR>
+nnoremap tn :tabnew<CR>
+
 "----------------------------------------------------------------------------------
 "   autoclose brackets
 "----------------------------------------------------------------------------------
